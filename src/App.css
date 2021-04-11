@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
 .App-logo {
@@ -36,3 +44,19 @@
     transform: rotate(360deg);
   }
 }
+.movie-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  color: light;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.movie-trailer {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+
