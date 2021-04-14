@@ -26,7 +26,7 @@ console.log(Add)
   return (
     <div>
       <Navbar bg="light" variant="light">
-        <Navbar.Brand href="#home">Turque series</Navbar.Brand>
+        <Navbar.Brand href="/">Turque series</Navbar.Brand>
         <Nav className="mr-auto">
         <Route exact path="/" render={()=>  <Nav.Link href="/">Home</Nav.Link>}/>
           <Nav.Link href="#features">Last episode</Nav.Link>
